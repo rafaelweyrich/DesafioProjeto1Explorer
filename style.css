@@ -1,0 +1,114 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+#hero {
+  max-width: 1280px;
+  align-items: center;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#hero img {
+  width: 350px;
+}
+
+h1 {
+font-size: 32px;
+line-height: 60px;
+font-weight: normal;
+margin-bottom: 32px;
+color: #2f2b63;
+width:auto;
+}
+
+
+
+span {
+  color: #EE24FF;
+  font-weight: bold;
+}
+
+strong{
+  color: #2f2b63;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+/* MUDEI */
+.preco {
+  text-align: center;
+  color: #2f2b63;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* MUDEI */
+p {
+  text-align: center;
+  color:#828282;
+  line-height: 25px;
+  font-size: 15px;
+  width:auto;
+  font-weight: 100px;
+
+
+}
+
+#footer {
+  color:#2f2b63;
+  font-weight: bold;
+}
+
+/* MUDEI */
+#footer a {
+  text-decoration: none;
+  color: #2f2b63;
+}
+
+a + a {
+  margin-left: 40px;
+
+}
+
+.line {
+  width: 568px;
+  height: 0px;
+  margin: 100px auto 25px;
+  border: 1px solid #c1c1c1;
+}
+ 
+#wave svg {
+  width: 100%;
+  height: auto; /* Permitir que a altura seja ajustada automaticamente para manter a proporção */
+  margin: 0;
+  padding: 0;
+  display: block; /* Garantir que a imagem se comporte como um bloco */
+}
+
+
+ #wave svg {
+  min-width: 100%; /* Para garantir que a imagem de fundo cubra toda a largura da tela */
+  min-height: 100%; /* Para garantir que a imagem de fundo cubra toda a altura da tela */
+}
+
+
+#wave {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  overflow: hidden; /* Para garantir que o conteúdo não ultrapasse as bordas */
+  margin: 0;
+  padding: 0;
+}
